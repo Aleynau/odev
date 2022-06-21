@@ -1,0 +1,25 @@
+p {
+    text-decoration: underline;
+    text-align: center;
+    color: blueviolet;
+    text-transform: uppercase;
+     text-decoration-color: orange;
+    text-shadow: 5px 6px 7px;
+    font-size: 50px;
+    font-style: italic;
+    word-spacing: 50px;
+    letter-spacing: 10px;
+}
+ul {
+    font-size: 40px;
+    color: green;
+    text-decoration: overline;
+    text-shadow: 3px 4px 5px;
+    text-transform: lowercase;
+    text-decoration-color: brown;
+}
+
+ol{
+    font-size: 30px;
+    color: darkmagenta;
+}
