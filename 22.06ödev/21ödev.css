@@ -1,0 +1,22 @@
+table{
+    width: 500px;
+    height: 250px;
+    background-color: darkseagreen;
+    text-transform: uppercase;
+    border-color: purple;
+}
+
+th{
+    text-align: center;
+    background-color: indianred;
+}
+
+td{
+background-color: tan;
+}
+
+table,th,td{
+    border-radius: 10px;
+}
+
+
