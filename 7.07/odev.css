@@ -1,0 +1,25 @@
+table{
+    width: 500px;
+    height: 250px;
+    text-align: center;
+}
+
+.gs{
+    background-color: pink;
+}
+
+.zb{
+    background-color: aquamarine;
+}
+#bb{
+    background-color: rgb(193, 160, 224);
+}
+.ph{
+    background-color: darkseagreen;
+}  
+.sl{
+    background-color: rgb(246, 201, 119);
+}  
+.cs{
+    background-color: darkseagreen;
+}
