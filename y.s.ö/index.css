@@ -1,0 +1,170 @@
+.header{
+    padding: 5px;
+    background-color: lightcoral;
+    color: aliceblue;
+    font-size: 30px;
+}
+#h{
+   position: relative;
+   right: -800px;
+   color: antiquewhite;
+   text-decoration: none;
+   line-height: 70px;
+}
+
+#c{
+    position: relative;
+    right: -850px;
+    color: antiquewhite;
+    text-decoration: none;
+    line-height: 70px;
+}
+#j{
+    position: relative;
+    right: -900px;
+    color: antiquewhite;
+    text-decoration: none;
+    line-height: 70px;
+}
+
+#l{
+    position: relative;
+    left: -300px;
+    line-height: 70px;
+
+}
+
+#ic{
+    width: 200px;
+    height: 200px;
+   position:fixed; 
+   top: 200px;
+   left: 300px;
+   border-radius: 2px;
+   border: 2px solid;
+   border-color: black;
+}
+
+#iu{
+    width: 200px;
+    height: 200px;
+    position:fixed;
+    top: 200px;
+    left: 550px;
+    border-radius: 2px;
+    border: 2px solid;
+    border-color: black;
+}
+
+#il{
+    width: 200px;
+    height: 200px;
+    position:fixed;
+    top: 200px;
+    left: 800px;
+    border-radius: 2px;
+    border: 2px solid;
+    border-color: black;
+}
+
+#ck{
+    text-decoration: none;
+    position: fixed;
+    top: 420px;
+    left: 350px;
+    color: black;
+    font-family: fantasy;
+
+}
+
+#uk{
+    text-decoration: none;
+    position:fixed;
+    top: 420px;
+    left: 620px;
+    color: black;
+    font-family: fantasy;
+}
+
+#lk{
+    text-decoration: none;
+    position:fixed;
+    top: 420px;
+    left: 870px;
+    color: black;
+    font-family: fantasy;
+}
+
+.kliste{
+    list-style: circle;
+    color: darkred;
+    position: fixed;
+    top: 150px;
+    left: 550px;
+   }
+ 
+  .button{
+    position:fixed;
+    top: 325px;
+    left: 580px;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: brown;
+    background-color: coral;
+    padding: 5px 20px;
+  }
+
+  .table{
+    position:relative;
+    top: 40px;
+    left: 450px;
+
+  }
+
+  #aramakutusu{
+    position: relative;
+    left: 500px;
+    top: 25;
+  }
+ 
+#buton{
+     position: relative;
+     top: 70px;
+     left: 450px;
+    width: 150px;
+    border-radius: 2px;
+    border: 1px solid;
+    border-color: brown;
+}
+
+#butn{
+    position: relative;
+    top: 70px;
+    left: 500px;
+    width: 150px;
+    border-radius: 2px;
+    border: 1px solid;
+    border-color: brown;
+}
+
+/*.liliste{
+    position: relative;
+    left: 70px;
+    list-style: circle;
+    color: darkred;
+
+}*/
+
+.litable{
+    position: relative;
+    left: 500px;
+    top: -110px;
+    
+}
+
+.table1l{
+    position: relative;
+    top: 90px;
+    left: 350px;
+    color: darkred;
+}

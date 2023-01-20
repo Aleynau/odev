@@ -1,0 +1,154 @@
+<link rel="stylesheet" href="index.css">
+    
+<div class="header">
+   <a id="h" link rel="stylesheet" href="https://www.w3schools.com/html/default.asp" target="_blank"> HTML5 </a>
+   <a id="c" link rel="stylesheet" href="https://www.w3schools.com/css/default.asp" target="_blank"> CSS3</a>
+   <a id="j" link rel="stylesheet" href="https://www.w3schools.com/js/default.asp" target="_blank"> Javascript</a>
+   <img id="l" src="hcjl1.png" width="150px" height="50px">
+</div>
+
+<input type="text" id="aramakutusu2" onkeyup="tabloarama()" placeholder="Ara...">
+
+<table id="aranirtablo"  class="table1l" >
+    <tr>
+        <td>Beverages</td>
+    </tr>
+    <tr>
+        <td>Condiments</td>
+    </tr>
+    <tr>
+        <td>Confections</td>
+    </tr>
+    <tr>
+        <td>Dairy Products</td>
+    </tr>
+    <tr>
+        <td>Grains/Celears</td>
+    </tr>
+    <tr>
+        <td>Meat/Poultry</td>
+    </tr>
+    <tr>
+        <td>Produce</td>
+    </tr>
+    <tr>
+        <td>Seafood</td>
+    </tr>
+</table>
+
+  <table  id="aranirtablo2" border="2px" class="litable" > 
+    <tr>  
+       <th> Ürün Adı</th>
+       <td> Unit Price</td>
+       <td>Unit in Stock</td>
+    </tr>
+   <tr>
+       <td>Chai</td>
+       <td>24</td>
+       <td>17</td>
+   </tr>
+   <tr>
+       <td>Chang</td>
+       <td>21 </td>
+       <td>17</td>
+   </tr>
+   <tr>
+       <td>Chef Anton's Cajun Seasoning </td>
+       <td>222</td>
+       <td>53</td>
+   </tr>
+   <tr>
+       <td>Chef Anton's Gumbo Mix</td>
+       <td>21</td>
+       <td>0</td>
+   </tr>
+   <tr>
+       <td>Grandma's Boysenberry Spread</td>
+       <td>25</td>
+       <td>120</td>
+   </tr>
+   <tr>
+       <td>Uncle Bob's Organic Dried Pears</td>
+       <td>30</td>
+       <td>15</td>
+   </tr>
+   <tr>
+       <td>Northwoods Cranberry Sauce</td>
+       <td> 40</td>
+       <td>100</td>
+   </tr>
+   <tr>
+       <td>Mishi Kobe Niku</td>
+       <td>97</td>
+       <td>29</td>
+   </tr>
+   <tr>
+       <td>Ikura</td>
+       <td>31</td>
+       <td>31</td>
+   </tr>
+   <tr>
+       <td>Queso Cabrales</td>
+       <td>21</td>
+       <td>22</td>
+   </tr>
+   <tr>
+       <td>Queso Manchego La Pastora</td>
+       <td>38</td>
+       <td>86</td>
+   </tr>
+   <tr>
+       <td>Konbu</td>
+       <td>6</td>
+       <td>24</td>
+   </tr>
+   <tr>
+       <td>Tofu</td>
+       <td>23.25</td>
+       <td>35</td>
+   </tr>
+   <tr>
+       <td>Genen Shouyu</td>
+       <td>15.5</td>
+       <td>39</td>
+   </tr>
+   <tr>
+       <td>Pavlova</td>
+       <td>17.45</td>
+       <td>29</td>
+   </tr>
+   <tr>
+       <td>Guiza</td>
+       <td>39</td>
+       <td>0</td>
+   </tr>
+   <tr>
+       <td>Carnarvon Tigers</td>
+       <td>62.5</td>
+       <td>42</td>
+   </tr>
+   <tr>
+       <td>Teatime Chocolate Biscuits</td>
+       <td>9.2</td>
+       <td>25</td>
+   </tr>
+</table>
+
+<script>
+    function tabloarama() {
+         var e, t, n, a, l;
+         for (e = document.getElementById("aramakutusu2").value.toUpperCase(), t = document.getElementById("aranirtablo").getElementsByTagName("tr"), l = 1; l < t.length; l++) {
+           t[l].style.display = "none", n = t[l].getElementsByTagName("td");
+           for (var m = 0; m < n.length; m++)
+             if ((a = t[l].getElementsByTagName("td")[m]) && a.innerHTML.toUpperCase().indexOf(e) > -1) {
+               t[l].style.display = "";
+               break
+             }
+         }
+       }
+</script>
+
+
+
+
+ 
